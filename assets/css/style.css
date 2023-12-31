@@ -1,0 +1,237 @@
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#280492;
+}
+header img{
+    border-radius: 20px;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+
+}
+
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 40px;
+    font-style: italic;
+}
+
+nav  ul li a :hover {
+    color:aliceblue;
+}
+nav ul li a{
+    font-size: 25px;
+}
+header > button {
+    padding:9px 25px;
+    background-color: #4caf50;
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+    outline:none;
+ }
+ header > button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+ }
+ .wrapper {
+    background: url('./img/techno.png') no-repeat center center / cover;
+    width: 100%;
+    display: block;
+    position:relative;
+    z-index: 1; 
+}
+.wrapper:before {
+    position: absolute;
+    content: '';
+    
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.div{
+    background-image:url('') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#280492;
+    text-align: center;
+    height:100vh;
+}
+.content{
+    display: flex;
+    margin-top: -10px;
+    padding: 80px 10%;
+    justify-content: space-between;
+    color:#100505
+}
+.hero-info h1{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.hero-info h1:hover{
+    color:white;
+}
+
+.hero-info{
+    margin: 30px 0;
+    font-family: 400;
+    line-height: 2;
+}
+.hero-info p{
+    font-size: 20px;
+    font-style:italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #030f1c;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color:#100505;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.btn-outline {
+    border-radius: 50px;
+    background: #8a4848;
+    color: #121114;
+}
+.img{
+    margin-right: 60px;
+    margin-bottom: 30px 50px;
+    border-radius: 50px;
+}
+.image-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 400;
+    justify-content: space-around;
+}
+.image-info{
+    margin-top: -90px;
+    border-radius: 50px;
+    font-style: italic;
+}
+.social-links{
+    padding: 20px;
+    margin-top: -10px;
+}
+.social-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn-social{
+    padding: 9px 25px;
+    border:none;
+    border-radius: 50px;
+}
+.bg-facebook{
+    background-color: #4267b2;
+}
+.bg-youtube{
+    background-color: #f00;
+}
+.bg-instagram{
+    background-color: #c135c1;
+}
+.bg-facebook:hover{
+    color:#280492
+}
+.bg-youtube:hover{
+    color:maroon
+}
+.bg-instagram:hover{
+    color: crimson;
+}
+.image-info img{
+    border-radius: 40px;
+}
+.image img{
+    width: 400px;
+    height:250px;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+.image-info h3{
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+}
+.image-info h3:hover{
+    color: #280492;
+}
+.font p1{
+    font-size: 20px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.font h1:hover{
+    color:#f00;
+}
+.font h3:hover{
+    color:#f00;
+    font-size:27px;
+}
+.btn-outline:hover{
+font-size: 25px;
+}
+.title h1{
+    margin-left: 600px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:initial;
+
+}
+.title p{
+    margin-left: 550px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;  
+}
+.title h1:hover{
+    color:crimson;
+    font-size: 28px;
+}
+.title p:hover{
+    color:crimson;
+    font-size: 28px;
+}
+
+
+
